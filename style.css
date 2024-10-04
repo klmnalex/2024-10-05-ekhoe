@@ -1,0 +1,39 @@
+h1 {
+    font-family: "Roboto Condensed", sans-serif;
+    text-align: center;
+    padding: 10px;
+    color: white;
+    background-color: black;
+    text-decoration: underline;
+    font-size: 40px;
+    transition-duration: 100ms;
+}
+
+#content {
+    margin: auto;
+    width: 600px;
+    padding: 20px;
+    border: 3px solid black;
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 600;
+    border-radius: 9px;
+}
+
+body {
+    text-align: justify;
+}
+
+img {
+    max-width: 15%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding: 20px;
+
+}
+
+h1:hover {
+    color: black;
+    background-color: white;
+    transition-duration: 100ms;
+}
